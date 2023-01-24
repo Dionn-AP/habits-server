@@ -35,7 +35,7 @@ const app = (0, fastify_1.default)();
 app.register(cors_1.default);
 app.register(routes_1.Routes);
 app.listen({
-    port: 3333,
+    port: 3333
 }).then(() => {
     console.log('HTTP Server running!');
 });
