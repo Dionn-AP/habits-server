@@ -5,7 +5,7 @@
   "main": "soma.js",
   "scripts": {
     "build": "tsc",
-    "start": "node ./build/server.js",
+    "start": "node ./build/src/server.js",
     "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
