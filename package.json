@@ -4,6 +4,8 @@
   "description": "",
   "main": "soma.js",
   "scripts": {
+    "build": "tsc",
+    "start": "node ./build/index.js",
     "dev": "tsx watch src/server.ts"
   },
   "keywords": [],
